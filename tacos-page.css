@@ -1,0 +1,624 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 417.8vh;
+    display: flex;
+    flex-direction: row;
+    font-family: monospace;
+    border-left: 1.2vw solid rgb(202, 16, 16);
+}
+
+
+
+
+
+/*----- start styling navigation -----*/
+nav {
+    background-color: rgb(31, 30, 30);
+    width: 17.5vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    float: left;
+}
+
+nav img {
+    align-self: center;
+    width:12vw ;
+}
+
+nav .fa-bars {
+    visibility: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav ul li {
+    font-size: 1.6vw;
+    padding: 2vw 0;
+    display:block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(218, 31, 31);
+    border-radius: 10px;
+    padding: 1vw;
+    transition: 1s;
+}
+nav ul li a:hover {
+    background-color: rgb(243, 26, 26);
+    color: rgb(31, 30, 30);
+    box-shadow: 0px 0px 30px 0px red;
+}
+
+nav ul li a i{
+    margin:0 1vw;
+}
+
+nav hr {
+    background-color:rgb(243, 26, 26);
+    border: rgb(255, 0, 0);
+    border-radius: 100%;
+    height: 0.3vw;
+    width: 10vw;
+    margin:0px auto;
+    margin-top: 10px;
+}
+
+nav div   {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+}
+nav div a i:hover , nav div a i:active {
+    background-color: rgb(187, 14, 14);
+    color:rgb(0, 0, 0);
+    padding:2.8px 4px;
+    border-radius: 5px;
+    box-shadow:0px 0px 15px 2px rgb(197, 16, 16);
+}
+
+
+nav p {
+    font-size: 1vw;
+}
+
+nav div a {
+    font-size: 2vw;
+    color: black;
+    padding:0.555vw;
+}
+
+
+/*----- end styling navigation -----*/
+
+
+/*----- start styling section -----*/
+
+section {
+    flex-shrink: 4;
+    width: 80.421vw;
+    height: 417.8vh;
+    margin-left: 17.5vw;
+    background-color: rgb(202, 16, 16);
+}
+
+section hr {
+    margin: 5px auto;
+    height: 1vw;
+    width: 30vw;
+    border: 1px solid rgb(175, 29, 29);
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+section article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+/*----- start styling etap1 -----*/
+
+.etap1 {
+    background:linear-gradient(rgba(0,0,0, .92), rgba(0,0,0, .92)), url("backtacos.jpg") center ;
+    border-right: 1vw solid rgb(202, 16, 16);
+    border-left: 1vw solid rgb(202, 16, 16);
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    height: 96vh;
+}
+
+.etap1 h4 {
+    font-size: 7vw;
+    color: rgb(175, 29, 29);
+}
+
+section .etap1 form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+section .etap1 form label {
+    display: flex;
+    align-items: center;
+    color: rgb(175, 29, 29);
+
+    font-family: fantasy;
+
+}
+section .etap1 form label input {
+    margin-right: 6px;
+    height: 3.5vh;
+    width: 3.5vw;
+}
+
+section .etap1 form  img {
+    height: 21vh;
+    width: 12vw;
+    margin-left: 90px;
+}
+
+.tacos-larg {
+    height: 26vh !important;
+    width: 16.5vw !important;
+}
+.tacos-xtra-larg {
+    height: 31vh !important;
+    width: 20vw !important;
+}
+
+/*----- end styling etap1 -----*/
+
+
+
+
+
+
+
+/*----- start styling etap2 -----*/
+
+.etap2 {
+    background:linear-gradient(rgba(0,0,0, .89), rgba(0,0,0, .89)), url("burger.jpg") center ;
+    border-right: 1vw solid rgb(202, 16, 16);
+    border-left: 1vw solid rgb(202, 16, 16);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 99vh;
+}
+
+.etap2 h4 {
+    color: rgb(175, 29, 29);
+    font-size: 7vw;
+    margin-bottom: 20px;
+}
+
+section .etap2 form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+section .etap2 form label {
+    display: flex;
+    align-items: center;
+    color: rgb(175, 29, 29);
+    font-family: fantasy;
+
+}
+
+section .etap2 form label input {
+    margin-right: 6px;
+    height: 3.5vh;
+    width: 3.5vw;
+}
+
+section .etap2 form  img {
+    height: 20vh;
+    width: 15vw;
+    margin-left: 90px;
+
+}
+
+/*----- end styling etap2 -----*/
+
+
+
+
+
+
+
+/*----- start styling etap3 -----*/
+
+.etap3 {
+    background:linear-gradient(rgba(0,0,0, .92), rgba(0,0,0, .92)), url("souces.jpg") center no-repeat ;
+    border-right: 1vw solid rgb(202, 16, 16);
+    border-left: 1vw solid rgb(202, 16, 16);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 200vh;
+}
+
+.etap3 h4 {
+    color: rgb(175, 29, 29);
+    font-size: 7vw;
+    margin-bottom: 20px;
+}
+
+.etap3 form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+.etap3 form label {
+    display: flex;
+    align-items: center;
+    color: rgb(175, 29, 29);
+    font-family: fantasy;
+    margin:15px 0;
+
+}
+
+.etap3 form label input {
+    margin-right: 6px;
+    height: 3.5vh;
+    width: 3.5vw;
+}
+
+.etap3 form label i {
+    margin-left: 10px;
+}
+
+.etap3 form label img {
+    height:30vh ;
+    width:15vw ;
+}
+
+
+
+#form4 {
+    display: flex;
+    flex-direction: column;
+}
+
+#form4 input[type="submit"] {
+    background-color: black;
+    color:rgb(202, 16, 16);
+    font-family: fantasy;
+    font-size: 2.5vw;
+    border:1px solid rgb(202, 16, 16);
+    border-radius: 10px;
+    padding: 1vw;
+    margin:1vw;
+    align-self: center;
+    cursor:pointer;
+}
+
+#form4 input[type="submit"]:hover {
+    background-color:rgb(197, 16, 16);
+    color:black;
+    border:1px solid black;
+    box-shadow:0px 0px 10px 5px black;
+}
+
+/*----- end styling etap3 -----*/
+
+
+
+/*----- end styling section -----*/
+
+
+
+/*----- start styling footer -----*/
+
+footer {
+    display:none;
+}
+
+
+
+/*----- end styling footer -----*/
+
+
+
+
+
+
+@media (max-width:700px) {
+
+        
+    body {
+        height: 418vh;
+        border-left: 0vw solid rgb(202, 16, 16);
+    }
+
+
+
+
+        
+    /*----- start styling navigation -----*/
+    nav {
+        position:absolute;
+        display:flex;
+        width: 100vw;
+        height: 11vh;
+        flex-direction: row;
+        margin: 0;
+    }
+    
+    nav img {
+        width:20vw ;
+    }
+    
+
+    
+    nav ul {
+        display:flex;
+        flex-direction: row;
+        align-content: center;
+        margin: 6vw 2vw;
+    }
+    
+    nav ul li {
+        font-size: 4vw;
+        padding: 2vw 1vw;
+        margin:  0 -1vw;
+        display:block;
+    }
+    
+    nav ul li a {
+
+
+
+    }
+
+    nav ul li::after {
+        content: "|";
+        color: rgb(202, 16, 16);
+    }
+
+    nav ul li:last-child::after {
+        content: " ";
+    }
+
+
+    
+    nav ul li a i{
+
+    }
+    
+    nav hr {
+        display:none;
+    }
+    
+    nav div   {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2vw;
+        display:none
+
+    }
+    
+    nav p {
+        font-size: 1vw;
+        display:none
+    }
+    
+    nav div a {
+        font-size: 2vw;
+        color: black;
+        padding:0.6vw;
+        display:none
+    }
+    
+
+    /*----- end styling navigation -----*/
+
+
+
+    /*----- start styling section -----*/
+
+    section {
+        flex-shrink: 4;
+        width: 100vw;
+        height: 426.8vh;
+        margin-left:0vw;
+        background-color: rgb(202, 16, 16);
+    }
+
+    section hr {
+        height: 2vw;
+        width: 40vw;
+        border:1px solid rgb(197, 16, 16);
+        border-radius: 20px;
+
+    }
+
+    section article {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+
+    /*----- start styling etap1 -----*/
+
+    .etap1 {
+        background:linear-gradient(rgba(0,0,0, .92), rgba(0,0,0, .92)), url("backtacos.jpg") center ;
+        border-right: 1vw solid rgb(202, 16, 16);
+        border-left: 1vw solid rgb(202, 16, 16);
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        height: 98vh;
+    }
+
+    .etap1 h4 {
+        font-size: 10vw;
+        color: rgb(175, 29, 29);
+    }
+
+    section .etap1 form {
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    section .etap1 form label {
+        display: flex;
+        align-items: center;
+        color: rgb(175, 29, 29);
+
+        font-family: fantasy;
+
+    }
+    section .etap1 form label input {
+        margin-right: px;
+        height: 3.5vh;
+        width: 3.5vw;
+    }
+
+    section .etap1 form  img {
+        height: 15vh;
+        width: 22vw;
+        margin-left: 50px;
+    }
+
+    .tacos-larg {
+        height: 20vh !important;
+        width: 31vw !important;
+    }
+    .tacos-xtra-larg {
+        height: 25vh !important;
+        width: 36vw !important;
+        margin-left:15px !important;
+    }
+
+    /*----- end styling etap1 -----*/
+
+
+
+
+
+
+
+    /*----- start styling etap2 -----*/
+
+    .etap2 h4 {
+        font-size: 9vw;
+    }
+
+
+    section .etap2 form  img {
+        margin-top: 10vw;
+        height: 15vh;
+        width: 25vw;
+    }
+
+    /*----- end styling etap2 -----*/
+
+
+
+
+
+
+
+    /*----- start styling etap3 -----*/
+
+
+    .etap3 h4 {
+        font-size: 9vw;
+    }
+
+
+    .etap3 form label {
+        margin:40px 0;
+    }
+
+
+    .etap3 form label img {
+        height:24vh ;
+        width:37vw ;
+    }
+
+    img[alt="curry-mango"] {
+        margin-left: 30px !important;
+    }
+
+    img[alt="caesar"] {
+        margin-left: 55px;
+    }
+
+    img[alt="nuggets"] {
+        height:16vh !important ;
+        width:40vw !important ;
+        margin-left: 50px !important;
+    }
+
+
+
+    #form4 input[type="submit"] {
+        font-size: 5vw;
+        padding: 2vw;
+        margin:1.7vw;
+    }
+    /*----- end styling etap3 -----*/
+
+
+
+    /*----- start styling footer -----*/
+
+    footer {
+        display: unset;
+        margin: 20px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer div a {
+        font-size: 8.5vw;
+        color:black;
+        flex-direction: column;
+        margin: 2.7vw;
+    }
+
+    footer div a i:hover , footer div a i:active {
+        background-color: black;
+        color:rgb(202, 16, 16);
+        padding:2.8px 4px;
+        border-radius: 5px;
+        box-shadow:0px 0px 15px 2px rgb(31, 30, 30);
+    }
+
+
+    footer p {
+        margin-top:10px;
+        font-size: 4vw;
+    }
+
+
+
+
+
+        /*----- start styling footer -----*/
+}
