@@ -285,8 +285,6 @@ section .etap2 form  img {
     width:15vw ;
 }
 
-
-
 #form4 {
     display: flex;
     flex-direction: column;
@@ -313,6 +311,7 @@ section .etap2 form  img {
 }
 
 /*----- end styling etap3 -----*/
+
 
 
 
